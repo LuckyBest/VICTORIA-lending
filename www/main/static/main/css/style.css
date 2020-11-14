@@ -8,10 +8,10 @@ header .container{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding-top: 35px;
 }
 .menu-icon{
 	padding-left: 76px;
-	padding-top: 37px;
 	width: 47px;
 	height: 47px;
 
@@ -20,35 +20,72 @@ header .container{
 	width: 274px;
 	height: 43px;
 	display: flex;
-	justify-content: start;
+	justify-content: space-between;
 	align-items: center;
+	position: relative;
+	top:-33px;
+	position: relative;
+	left: -250px;
+
 }
 .logo-name{
 	width: 188px;
 	height: 43px;
+	font-size: 36px;
+	font-family: 'Rubik', sans-serif;
+	color: #151618;
+	font-weight: 400;
+	
+
+
+}
+.vertical-line{
+	position: relative;
+	top: +35px;
+
 }
 .logo-description{
 	width: 55px;
 	height: 32px;
+	font-size: 13px;
 	position: relative;
-	top: -10px;
-
+	top: +22px;
+	font-family: 'Rubik' , sans-serif;
+	font-weight: 500;
+	color: #A0A0A0;
 }
 .navigation{
+	width: 453px;
+	height: 47px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	position: relative;
+	right: +120px;
 }
 .navigation ul{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	text-decoration: none;
+	list-style-type: none;
+
 
 }
 .navigation ul li{
-	margin-right: 20px;
+	font-size: 14px;
+	margin-right: 54px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	
+}
+.navigation ul li:first-child{
+	margin-left: 0;
+}
+.navigation ul li a{
 	text-decoration: none;
+	color: #6A6768;
+	text-transform: uppercase;
+	
 }
 .oval-img{
 	padding-right: 68px;
