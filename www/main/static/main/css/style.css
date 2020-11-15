@@ -2,6 +2,7 @@ body{
 	background-color: #fff;
 	margin: 0;
 	padding: 0;
+	background-image: url('https://havingfun.es/wp-content/uploads/2018/01/MDNOTEBOOK_B6_ALGODON1-1-700x700.jpg');
 }
 header .container{
 	width: 100%;
@@ -11,9 +12,16 @@ header .container{
 	padding-top: 35px;
 }
 .menu-icon{
+	cursor: pointer;
 	padding-left: 76px;
 	width: 47px;
 	height: 47px;
+	border-radius: 15px;
+
+}
+.menu-icon_2{
+	cursor: pointer;
+	border-radius: 15px;
 
 }
 .logo{
@@ -29,22 +37,27 @@ header .container{
 
 }
 .logo-name{
+	cursor: pointer;
 	width: 188px;
 	height: 43px;
 	font-size: 36px;
 	font-family: 'Rubik', sans-serif;
 	color: #151618;
 	font-weight: 400;
-	
-
-
+	transition: .4s ease;
+}
+.logo-name:hover{
+	color:#ffaa80;
+	transform: scale(1.05);
 }
 .vertical-line{
+	cursor: pointer;
 	position: relative;
 	top: +35px;
 
 }
 .logo-description{
+	cursor: pointer;
 	width: 55px;
 	height: 32px;
 	font-size: 13px;
@@ -53,6 +66,12 @@ header .container{
 	font-family: 'Rubik' , sans-serif;
 	font-weight: 500;
 	color: #A0A0A0;
+	transition: .4s ease;
+}
+.logo-description:hover{
+	color:#ffbf80;
+
+	transform: scale(1.1);
 }
 .navigation{
 	width: 453px;
@@ -85,9 +104,14 @@ header .container{
 	text-decoration: none;
 	color: #6A6768;
 	text-transform: uppercase;
-	
+	transition: all .3s ease;
+}
+.navigation ul li a:hover{
+	color:#151618;
+	border-bottom: solid 1px #151618;
 }
 .oval-img{
+	cursor: pointer;
 	padding-right: 68px;
 }
 
@@ -99,16 +123,22 @@ header .container{
 	align-items: center;
 }
 .dash-line{
+	cursor: pointer;
 	padding-left: 76px;
 	height: 149px;
 	width: 14px;
 }
 .dash-line p{
+	cursor: pointer;
 	position: relative;
 	right: +4px;
+	color:#6A6768;
+	font-family: 'Ribik',sans-serif;
+	font-weight: 500;
 
 }
 .body-text{
+	
 	width: 408px;
 	height: 273px;
 	position: relative;
@@ -117,6 +147,7 @@ header .container{
 
 }
 .body-text__header{
+	cursor: pointer;
 	width: 385px;
 	height: 114px;
 	font-size: 96px;
@@ -127,6 +158,7 @@ header .container{
 
 }
 .body-text__under-text{
+	cursor: pointer;
 	margin-top: 37px;
 	width: 400px;
 	height: 50px;
@@ -137,6 +169,7 @@ header .container{
 
 }
 .body-text__btn{
+	cursor: pointer;
 	width: 180px;
 	height: 52px;
 
@@ -145,7 +178,8 @@ header .container{
 	width: 568px;
 	height: 477px;
 	position: relative;
-	left:+300px;
+	left:+290px;
+	top:+30px;
 
 }
 
