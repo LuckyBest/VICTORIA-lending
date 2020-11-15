@@ -141,10 +141,34 @@ header .container{
 	height: 52px;
 
 }
+.right-side_image{
+	width: 568px;
+	height: 477px;
+	position: relative;
+	left:+300px;
+
+}
+
+.fon{
+	position: relative;
+	left: -100px;
+	top:+60px;
+}
+.rose{
+	position: relative;
+	top:-113px;
+	left:-168px;
+
+}
+.bottle{
+	position: relative;
+	top: -560px;
+	left: -20px;
+}
 .end-page{
 	width: 112px;
 	height: 12px;
-	padding-left: 75px;
+
 }
 .images{
 	width: 112px;
