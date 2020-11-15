@@ -113,7 +113,6 @@ header .container{
 	position: relative;
 	top: -20px;
 	font-family: 'Rubik', sans-serif;
-	font-weight: 400;
 	color:#151618;
 
 }
@@ -130,4 +129,17 @@ header .container{
 .body-text__btn{
 	width: 180px;
 	height: 52px;
+
+}
+.end-page{
+	width: 112px;
+	height: 12px;
+}
+.images{
+	width: 112px;
+	height: 12px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 193px;
 }
