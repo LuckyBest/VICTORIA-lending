@@ -90,3 +90,44 @@ header .container{
 .oval-img{
 	padding-right: 68px;
 }
+
+.main-body{
+	width: 90%;
+	margin-top: 94px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.body-text{
+	width: 408px;
+	height: 273px;
+	position: relative;
+	top: -100px;
+	margin-right: 103px;
+
+}
+.body-text__header{
+	width: 385px;
+	height: 114px;
+	font-size: 96px;
+	position: relative;
+	top: -20px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400;
+	color:#151618;
+
+}
+.body-text__under-text{
+	margin-top: 37px;
+	width: 400px;
+	height: 50px;
+	font-size: 12px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	color: #A0A0A0;
+
+}
+.body-text__btn{
+	width: 180px;
+	height: 52px;
+}
